@@ -1,0 +1,101 @@
+.p-t-b-150 {
+    padding: 150px 0;
+}
+
+.sect-img-left {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url('../../../assets/images/bg-img-3.png') center center no-repeat;
+    background-size: 100% 100%;
+    padding: 180px 0 !important;
+    .title {
+        height: 56px;
+        font-family: Quicksand;
+        font-size: 45px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: 1.35px;
+        text-align: center;
+        color: #00c4d2;
+    }
+    .subtitle {
+        height: 89px;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        text-align: center;
+        color: #212121;
+        padding-top: 14px;
+    }
+    .bigbox {
+        padding-top: 35px;
+        .box {
+            width: 502px;
+            height: 112px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px 0 rgba(40, 131, 137, 0.1);
+            background-color: #ffffff;
+            ul {
+                display: block;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    padding: 5px 31px;
+                    width: 33.33%;
+                    .img {
+                        // height: 46.9px;
+                        object-fit: contain;
+                        padding-top: 14px;
+                    }
+                    .title {
+                        font-family: Quicksand;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 2.31;
+                        letter-spacing: 0.39px;
+                        text-align: center;
+                        color: #212121;
+                    }
+                }
+                .dot-img1 {}
+            }
+        }
+        .head {
+            height: 25px;
+            font-family: Quicksand;
+            font-size: 20px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: 0.6px;
+            text-align: left;
+            color: #212121;
+        }
+        .para {
+            width: 400px;
+            height: 75px;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.63;
+            letter-spacing: 0.48px;
+            text-align: left;
+            color: #212121;
+            padding-top: 15px;
+        }
+    }
+}

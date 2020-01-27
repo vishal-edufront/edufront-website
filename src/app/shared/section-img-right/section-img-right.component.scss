@@ -1,0 +1,126 @@
+.p-t-b-150 {
+    padding: 150px 0;
+}
+
+.sect-img-left {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 100%;
+    .title {
+        height: 56px;
+        font-family: Quicksand;
+        font-size: 45px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: 1.35px;
+        text-align: center;
+        color: #00c4d2;
+    }
+    .subtitle {
+        height: 89px;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        text-align: center;
+        color: #212121;
+        padding-top: 14px;
+    }
+    .bigbox {
+        padding-top: 35px;
+        .head {
+            height: 25px;
+            font-family: Quicksand;
+            font-size: 20px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: 0.6px;
+            text-align: left;
+            color: #212121;
+        }
+    }
+}
+
+.right-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    &::after {
+        content: "";
+        width: 600px;
+        height: 600px;
+        background: url('../../../assets/images/blur-image1.png') center center no-repeat;
+        top: 10px;
+        right: 5px;
+        position: absolute;
+        display: inline-block;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.para {
+    height: auto;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 27px;
+    padding-left: 90px;
+    position: relative;
+    span {
+        font-weight: 600;
+    }
+    .para1 {
+        &::after {
+            content: "";
+            width: 30px;
+            height: 30px;
+            background: url('../../../assets/images/gr-9.svg') center center no-repeat;
+            top: 0;
+            left: 15px;
+            position: absolute;
+            display: inline-block;
+        }
+    }
+    .para2 {
+        &::after {
+            content: "";
+            width: 30px;
+            height: 30px;
+            background: url('../../../assets/images/gr-4.svg') center center no-repeat;
+            top: 0;
+            left: 15px;
+            position: absolute;
+            display: inline-block;
+        }
+    }
+    .para3 {
+        &::after {
+            content: "";
+            width: 30px;
+            height: 30px;
+            background: url('../../../assets/images/gr-11.svg') center center no-repeat;
+            top: 0;
+            left: 15px;
+            position: absolute;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+        .footer {
+            svg {
+                width: 100%;
+                position: relative;
+            }
+            .wave {
+                animation: wave 3s linear;
+                animation-iteration-count: infinite;
+                fill: #f4f9fd;
+            }
+            .drop {
+                fill: transparent;
+                animation: drop 5s ease infinite normal;
+                stroke: #f4f9fd;
+                stroke-width: 0.5;
+                opacity: .6;
+                transform: translateY(80%);
+            }
+            .drop1 {
+                transform-origin: 20px 3px;
+            }
+            .drop2 {
+                animation-delay: 3s;
+                animation-duration: 3s;
+                transform-origin: 25px 3px;
+            }
+            .drop3 {
+                animation-delay: -2s;
+                animation-duration: 3.4s;
+                transform-origin: 16px 3px;
+            }
+            .gooeff {
+                filter: url(#goo);
+            }
+            #wave2 {
+                animation-duration: 5s;
+                animation-direction: reverse;
+                opacity: .6
+            }
+            #wave3 {
+                animation-duration: 7s;
+                opacity: .3;
+            }
+            @keyframes drop {
+                0% {
+                    transform: translateY(80%);
+                    opacity: .6;
+                }
+                80% {
+                    transform: translateY(80%);
+                    opacity: .6;
+                }
+                90% {
+                    transform: translateY(10%);
+                    opacity: .6;
+                }
+                100% {
+                    transform: translateY(0%) scale(1.5);
+                    stroke-width: 0.2;
+                    opacity: 0;
+                }
+            }
+            @keyframes wave {
+                to {
+                    transform: translateX(-100%);
+                }
+            }
+            @keyframes ball {
+                to {
+                    transform: translateY(20%);
+                }
+            }
+            .container {
+                max-width: 1366px;
+                position: relative;
+                height: auto;
+                .footer-bx {
+                    position: absolute;
+                    bottom: 50px;
+                    left: 0;
+                    .footer-box-img {
+                        margin-bottom: 13px;
+                        width: 165px;
+                        height: 39.8px;
+                        object-fit: contain;
+                        img {
+                            width: 165px;
+                            height: 39.8px;
+                            object-fit: contain;
+                        }
+                    }
+                    .footer-link {
+                        display: inline-block;
+                        list-style: none;
+                        p {
+                            height: 21px;
+                            font-family: Raleway;
+                            font-size: 18px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.17;
+                            letter-spacing: -0.09px;
+                            text-align: right;
+                            color: #212121;
+                        }
+                    }
+                }
+                .footer-bx-link {
+                    position: absolute;
+                    bottom: 50px;
+                    right: 0;
+                    ul {
+                        display: block;
+                    }
+                    .footer-link {
+                        display: inline-block;
+                        list-style: none;
+                        padding-left: 15px;
+                        p {
+                            height: 21px;
+                            font-family: Raleway;
+                            font-size: 18px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.17;
+                            letter-spacing: -0.09px;
+                            text-align: right;
+                            color: #212121;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
