@@ -15,7 +15,7 @@ export class IntroComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    if (this.router.url === '/Home') {
+    if (this.router.url === '/Home' || this.router.url === '/') {
       this.home();
 
     }
@@ -31,7 +31,7 @@ export class IntroComponent implements OnInit {
 
 
 home() {
-  if (this.router.url === '/Home') {
+  if (this.router.url === '/Home' ||  this.router.url === '/') {
     this.title = 'Education Upgraded';
     // tslint:disable-next-line: max-line-length
     this.para = 'Edufront is the best software and solution platform to realising every student’s potential. We empower personalised, flexible and complete learning for schools worldwide.';

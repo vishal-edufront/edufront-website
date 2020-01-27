@@ -22,7 +22,7 @@ export class SectionInfoComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    if (this.router.url === '/Home') {
+    if (this.router.url === '/Home' || this.router.url === '/') {
       this.home();
     }
 
@@ -34,7 +34,7 @@ export class SectionInfoComponent implements OnInit {
 
 
 home() {
-  if (this.router.url === '/Home') {
+  if (this.router.url === '/Home' || this.router.url === '/') {
     this.title = 'The Complete Package for School Empowerment';
     // tslint:disable-next-line: max-line-length
     this.para = 'Edufront builds the most complete and useable tools for school education. Whether you require administration systems, content platforms, learning tools, and more, Edufront’s carefully designed features help you bring your students to the next level. Schools, Teachers and Students all benefit from better results and learning by relying on Edufront';
