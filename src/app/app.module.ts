@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +14,8 @@ import { SectionImgLeftComponent } from './shared/section-img-left/section-img-l
 import { SectionImgRightComponent } from './shared/section-img-right/section-img-right.component';
 import { ProductsComponent } from './products/products.component';
 import { SolutionsComponent } from './solutions/solutions.component';
+import { ProductComplexityComponent } from './shared/product-complexity/product-complexity.component';
+import { SectionBckImgComponent } from './shared/section-bck-img/section-bck-img.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +29,13 @@ import { SolutionsComponent } from './solutions/solutions.component';
     SectionImgLeftComponent,
     SectionImgRightComponent,
     ProductsComponent,
-    SolutionsComponent
+    SolutionsComponent,
+    ProductComplexityComponent,
+    SectionBckImgComponent
   ],
   imports: [
     BrowserModule,
+    ScrollToModule.forRoot(),
     RouterModule.forRoot([
       { path: '', pathMatch: 'full', component: HomeComponent},
       { path: 'Home', component: HomeComponent},

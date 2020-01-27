@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1397" height="371" viewBox="0 0 1397 371">
+  <g id="Group_370" data-name="Group 370" transform="translate(-55 -4652)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="168.5" cy="168.5" r="168.5" transform="translate(541 4652)" fill="#00dce8" opacity="0.044"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="60" cy="60" r="60" transform="translate(650 4761)" fill="#00dce8"/>
+    <g id="Group_261" data-name="Group 261" transform="translate(678 4790)">
+      <path id="Path_1" data-name="Path 1" d="M486.9,450.21a2.183,2.183,0,0,0-2.124-1.411c-3.042-.015-6.083-.007-9.125,0a2.207,2.207,0,0,0-.515.061,2.353,2.353,0,0,0-1.828,2.516,15.918,15.918,0,0,1-1.48,6.552A18,18,0,0,1,453,468.2a17.25,17.25,0,0,1-12.333-7.624,17.076,17.076,0,0,1-3.033-9.273,2.342,2.342,0,0,0-2.365-2.5q-4.536-.024-9.073,0a2.307,2.307,0,1,0,.011,4.614c1.078.012,2.155,0,3.233,0h3.689a22.426,22.426,0,0,0,12.5,17.375,21.992,21.992,0,0,0,10.8,2.206,22.365,22.365,0,0,0,13.263-5.024,21.707,21.707,0,0,0,8.155-14.558h.585c2.086,0,4.171,0,6.257,0a2.263,2.263,0,0,0,1.769-.741A2.186,2.186,0,0,0,486.9,450.21Z" transform="translate(-423.851 -412.794)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M706.758,122.846a2.236,2.236,0,0,0,3.8-1.644c.013-2.536,0-5.072,0-7.608,0-2.5,0-5,0-7.5a2.387,2.387,0,0,0-.581-1.68,2.235,2.235,0,0,0-2.426-.608,2.273,2.273,0,0,0-1.479,2.29q-.012,7.5,0,15.007A2.275,2.275,0,0,0,706.758,122.846Z" transform="translate(-676.643 -103.667)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_3" data-name="Path 3" d="M803.717,185.625a2.216,2.216,0,0,0,2.609-1.126q3.043-5.429,6.056-10.875a2.25,2.25,0,0,0,.262-1.657,2.233,2.233,0,0,0-4.168-.5q-3.021,5.412-6.023,10.834a7.178,7.178,0,0,0-.406,1.16A2.392,2.392,0,0,0,803.717,185.625Z" transform="translate(-762.604 -163.294)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_4" data-name="Path 4" d="M556.017,182.622c.372.667.724,1.348,1.136,1.989a2.077,2.077,0,0,0,2.3.961,2.125,2.125,0,0,0,1.724-1.678,2.331,2.331,0,0,0-.334-1.79q-2.343-4.21-4.687-8.419c-.482-.864-.94-1.744-1.471-2.577a2.152,2.152,0,0,0-2.477-.855,2.46,2.46,0,0,0-1.649,2.157,11.126,11.126,0,0,0,.529,1.332C552.718,176.709,554.37,179.665,556.017,182.622Z" transform="translate(-537.343 -163.214)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_5" data-name="Path 5" d="M453.832,309.774q4.094,2.388,8.2,4.748a8.01,8.01,0,0,0,1.245.466,2.5,2.5,0,0,0,2.261-1.724,2.265,2.265,0,0,0-1.088-2.677c-2.784-1.636-5.574-3.263-8.388-4.847a2.731,2.731,0,0,0-1.488-.308,2.209,2.209,0,0,0-1.972,1.8A2.318,2.318,0,0,0,453.832,309.774Z" transform="translate(-449.566 -284.383)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Path_6" data-name="Path 6" d="M877.737,313.118a2.523,2.523,0,0,0,2.233,1.714,11.43,11.43,0,0,0,1.376-.548c1.141-.627,2.256-1.3,3.383-1.953,1.577-.914,3.16-1.818,4.73-2.745a2.316,2.316,0,1,0-2.334-3.994c-1.768,1-3.52,2.029-5.275,3.051-1.095.637-2.206,1.251-3.269,1.939A2.192,2.192,0,0,0,877.737,313.118Z" transform="translate(-830.299 -284.21)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g id="Group_287" data-name="Group 287">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="170" height="41" rx="20.5" transform="translate(871 4701)" fill="#aaf4f6" opacity="0.596"/>
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="170" height="41" rx="20.5" transform="translate(55 4728)" fill="#aba9f8" opacity="0.596"/>
+      <rect id="Rectangle_44" data-name="Rectangle 44" width="170" height="41" rx="20.5" transform="translate(297 4982)" fill="#aba9f8" opacity="0.596"/>
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="260" height="41" rx="20.5" transform="translate(230 4661)" fill="#fcf2e4" opacity="0.896"/>
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="170" height="41" rx="20.5" transform="translate(1024 4874)" fill="#aba9f8" opacity="0.596"/>
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="243" height="41" rx="20.5" transform="translate(329 4901)" fill="#fcf2e4" opacity="0.896"/>
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="170" height="41" rx="20.5" transform="translate(857 4795)" fill="#9fcdf9" opacity="0.596"/>
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="287" height="41" rx="20.5" transform="translate(163 4816)" fill="#aaf4f6" opacity="0.596"/>
+      <rect id="Rectangle_31" data-name="Rectangle 31" width="170" height="41" rx="20.5" transform="translate(1196 4668)" fill="#fcf2e4" opacity="0.896"/>
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="170" height="41" rx="20.5" transform="translate(1282 4900)" fill="#9fcdf9" opacity="0.596"/>
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="170" height="41" rx="20.5" transform="translate(809 4901)" fill="#fcf2e4" opacity="0.896"/>
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="170" height="41" rx="20.5" transform="translate(55 4920)" fill="#9fcdf9" opacity="0.596"/>
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="170" height="41" rx="20.5" transform="translate(1081 4748)" fill="#aba9f8" opacity="0.596"/>
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="170" height="41" rx="20.5" transform="translate(366 4742)" fill="#9fcdf9" opacity="0.596"/>
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="170" height="41" rx="20.5" transform="translate(1111 4966)" fill="#9fcdf9" opacity="0.596"/>
+      <rect id="Rectangle_36" data-name="Rectangle 36" width="170" height="41" rx="20.5" transform="translate(1215 4815)" fill="#aba9f8" opacity="0.596"/>
+      <text id="consequuntur_magni" data-name="consequuntur magni" transform="translate(360 4687)" fill="#ed933e" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-82.592" y="0">consequuntur magni</tspan></text>
+      <text id="consequuntur_magni-2" data-name="consequuntur magni" transform="translate(453 4927)" fill="#ed933e" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-82.592" y="0">consequuntur magni</tspan></text>
+      <text id="consectetur" transform="translate(894 4926)" fill="#ed933e" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-47.984" y="0">consectetur</tspan></text>
+      <text id="nostrum" transform="translate(1281 4694)" fill="#ed933e" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-33.216" y="0">nostrum</tspan></text>
+      <text id="non_numquam_eius" data-name="non numquam eius" transform="translate(306 4842)" fill="#00c4d2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-76.344" y="0">non numquam eius</tspan></text>
+      <text id="magni" transform="translate(956 4727)" fill="#00c4d2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-24.632" y="0">magni</tspan></text>
+      <text id="magni-2" data-name="magni" transform="translate(946 4821)" fill="#69a9f2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-24.632" y="0">magni</tspan></text>
+      <text id="magni-3" data-name="magni" transform="translate(450 4768)" fill="#69a9f2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-24.632" y="0">magni</tspan></text>
+      <text id="magni-4" data-name="magni" transform="translate(138 4946)" fill="#69a9f2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-24.632" y="0">magni</tspan></text>
+      <text id="tempora" transform="translate(1196 4992)" fill="#69a9f2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-33.736" y="0">tempora</tspan></text>
+      <text id="consequuntur" transform="translate(140 4754)" fill="#564aec" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-55.696" y="0">consequuntur</tspan></text>
+      <text id="consequuntur-2" data-name="consequuntur" transform="translate(382 5008)" fill="#564aec" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-55.696" y="0">consequuntur</tspan></text>
+      <text id="master-builder" transform="translate(1115 4900)" fill="#564aec" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-59.712" y="0">master-builder</tspan></text>
+      <text id="consequuntur-3" data-name="consequuntur" transform="translate(1166 4774)" fill="#564aec" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-55.696" y="0">consequuntur</tspan></text>
+      <text id="consequuntur-4" data-name="consequuntur" transform="translate(1304 4841)" fill="#564aec" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-55.696" y="0">consequuntur</tspan></text>
+      <text id="incidunt" transform="translate(1364 4927)" fill="#69a9f2" font-size="16" font-family="Raleway-SemiBold, Raleway" font-weight="600" letter-spacing="0.03em"><tspan x="-32.44" y="0">incidunt</tspan></text>
+    </g>
+  </g>
+</svg>
