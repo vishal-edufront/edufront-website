@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -35,7 +34,6 @@ import { SectionBckImgComponent } from './shared/section-bck-img/section-bck-img
   ],
   imports: [
     BrowserModule,
-    ScrollToModule.forRoot(),
     RouterModule.forRoot([
       { path: '', pathMatch: 'full', component: HomeComponent},
       { path: 'Home', component: HomeComponent},

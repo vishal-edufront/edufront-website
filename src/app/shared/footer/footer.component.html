@@ -1,23 +1,5 @@
 <div class="footer">
-<svg viewBox="0 0 120 28">
- <defs>
-   <mask id="xxx">
-     <circle cx="7" cy="12" r="40" fill="#fff" />
-   </mask>
 
-   <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="
-           1 0 0 0 0
-           0 1 0 0 0
-           0 0 1 0 0
-           0 0 0 13 -9" result="goo" />
-      <feBlend in="SourceGraphic" in2="goo" />
-  	</filter>
-     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-  </defs>
-   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
-</svg>
   <div class="container">
     <div class="footer-bx">
       <div class="footer-box-img">
@@ -29,9 +11,9 @@
     </div>
     <div class="footer-bx-link">
       <ul>
-        <li class="footer-link" [routerLink]="['/Vision']"><p>Vision</p></li>
-        <li class="footer-link" [routerLink]="['/Products']"><p>Products</p></li>
-        <li class="footer-link" [routerLink]="['/Solutions']"><p>Solutions</p></li>
+        <li class="footer-link" [routerLink]="['/Vision']"><a>Vision</a></li>
+        <li class="footer-link" [routerLink]="['/Products']"><a>Products</a></li>
+        <li class="footer-link" [routerLink]="['/Solutions']"><a>Solutions</a></li>
         <li class="footer-link" ><p>Contact</p></li>
       </ul>
     </div>
