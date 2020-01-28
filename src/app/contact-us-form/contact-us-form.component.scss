@@ -1,0 +1,168 @@
+.write-to-us{
+
+    font-family: 'Quicksand', serif;
+    font-size: 45px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 1.35px;
+    text-align: left;
+    color: #212121;
+}
+
+.edufront-helps-you{
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #212121;
+}
+
+.section-1{
+
+    padding-top: 100px;
+  }
+
+.main-head{
+    width: 543px;
+    height: 215px;
+    font-family: 'Quicksand', serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sub-head {
+    width: 533px;
+    height: 148px;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+.address-block {
+    width: 444px;
+    height: 145px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(110, 110, 110, 0.1);
+    background-color: #ffffff;
+}
+
+.address,.email,.phone {
+    font-family: 'Quicksand', serif;    
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.75;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #212121;
+}
+
+.address-text,.email-text,.phone-text {
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #212121;
+}
+
+.email-block {
+
+    width: 444px;
+    height: 145px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(154, 154, 154, 0.1);
+    background-color: #fafafa;
+}
+
+
+.phone-block{
+
+    width: 444px;
+    height: 145px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(76, 133, 154, 0.1);
+    background-color: #ededed;
+}
+
+input{
+
+    height: 61px;
+  border-radius: 12px;
+  border: solid 1px #cbcbcb;
+  background-color: #ffffff;
+  font-family: 'Raleway', serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.44;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #616161;
+}
+
+textarea{
+
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.44;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #616161;
+}
+
+.btn-grey{
+    width: 260px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #616161;
+    font-family: 'Quicksand', serif;    
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: 0.72px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.bg-grey{
+
+    background-image: url(../../assets/images/bg_shape.svg);
+    background-size: contain;
+
+}
+
+.header-bg{
+
+    background-image: url(../../assets/images/contact_bg.svg);
+    background-size: cover;
+    height: 985px;
+}

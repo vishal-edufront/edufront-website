@@ -16,6 +16,7 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { ProductComplexityComponent } from './shared/product-complexity/product-complexity.component';
 import { SectionBckImgComponent } from './shared/section-bck-img/section-bck-img.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ContactUsFormComponent } from './contact-us-form/contact-us-form.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     ProductsComponent,
     SolutionsComponent,
     ProductComplexityComponent,
-    SectionBckImgComponent
+    SectionBckImgComponent,
+    ContactUsFormComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
       { path: 'Vision', component: VisionComponent},
       { path: 'Products', component: ProductsComponent},
       { path: 'Solutions', component: SolutionsComponent},
+      { path: 'ContactUs', component: ContactUsFormComponent},
+
    ])
   ],
   providers: [],
