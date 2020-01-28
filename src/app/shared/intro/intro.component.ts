@@ -11,6 +11,7 @@ export class IntroComponent implements OnInit {
   para: string;
   fonth1;
   imagePath1;
+  backgroundimg;
 
   constructor(private router: Router) { }
 
@@ -49,6 +50,9 @@ vision() {
     this.para = 'Edufront is a technology company that upgrades and augments the outcomes of school education. Schools of every kind and circumstance benefit from our software to manage and personalise education in a changing modern word';
     this.imagePath1 = 'assets/images/vision_hero.svg';
     this.fonth1 = {'font-size': '60px'};
+    this.backgroundimg = {
+        'background': 'url(../../assets/images/bg-img-0002.png)'
+    };
 
   }
 

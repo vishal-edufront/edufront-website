@@ -5,7 +5,7 @@
         position: relative;
         z-index: 99;
         right: 0;
-        top: 0px;
+        top: 12px;
         opacity: 1;
         width: 640px;
         height: 427px;
@@ -24,7 +24,7 @@
     /* -webkit-transform: rotate(90deg); */
     /* transform: rotate(164deg); */
     top: 43px;
-    right: 248px;
+    left: 0;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -34,13 +34,13 @@
 
 .blur-image {
     position: absolute;
-    bottom: 72px;
+    bottom: 142px;
     z-index: 9;
-    left: 77px;
+    left: 180px;
     .blur-img {
         object-fit: contain;
-        width: 661.2px;
-        height: 651.3px;
+        width: 546.2px;
+        height: auto;
         object-fit: contain;
     }
 }

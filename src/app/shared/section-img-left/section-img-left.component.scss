@@ -68,7 +68,30 @@
                         color: #212121;
                     }
                 }
-                .dot-img1 {}
+                .dot-img1 {
+                    &::after {
+                        content: "";
+                        width: 93px;
+                        height: 30px;
+                        background: url('../../../assets/images/line_icon.png') center center no-repeat;
+                        top: 26px;
+                        left: 135px;
+                        position: absolute;
+                        display: inline-block;
+                    }
+                }
+                .dot-img2 {
+                    &::after {
+                        content: "";
+                        width: 93px;
+                        height: 30px;
+                        background: url('../../../assets/images/line_icon.png') center center no-repeat;
+                        top: 26px;
+                        left: 302px;
+                        position: absolute;
+                        display: inline-block;
+                    }
+                }
             }
         }
         .head {

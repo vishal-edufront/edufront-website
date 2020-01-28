@@ -1,145 +1,135 @@
-.header {      
-    height:1000px;
-    object-fit: contain;   
-      background-image: url(../../assets/images/Path137.png);
-      background-size: cover;
-    }
-  
-    .product_hero {
-      width: 339.9px;
-      height: 376.1px;
-      object-fit: contain;
-    }
-  
-    .logo {
-      margin-top: -4%;
-      margin-right: -38%;
-      width: 165px;
-      height: 39.8px;
-      object-fit: contain;
-      font-family: 'Quicksand', serif!important;
-  
-    }
-  
-    .edufront {
-   
-      font-family: 'Quicksand', serif;
-      font-size: 26px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.27;
-      letter-spacing: -0.13px;
-      text-align: left;
-      color: #ffffff;
-    }
-  
-    .menu-links {
-      width: 417px;
-      height: 23px;
-      font-family: 'Quicksand', serif;
-      font-size: 18px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.28;
-      letter-spacing: -0.09px;
-      text-align: right;
-      color: #ffffff;
-    }
-  
-    a{
-        color: white;
-  
-    }
-  
-  .solutions{
-      margin-bottom: 2px;;
-  border-bottom: 1px solid white;
-  
-  }
-  
-  .main-head{
-      width: 543px;
-      height: 215px;
-      font-family: 'Quicksand', serif;
-      font-size: 60px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.17;
-      letter-spacing: normal;
-      text-align: left;
-      color: #ffffff;
-  }
-  
-  .sub-head {
-      width: 533px;
-      height: 148px;
-      font-family: 'Raleway', serif;
-      font-size: 20px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.5;
-      letter-spacing: 0.7px;
-      text-align: left;
-      color: #ffffff;
-    }
-  
+.header {
+    height: 1000px;
+    object-fit: contain;
+    background-image: url(../../assets/images/Path137.png);
+    background-size: cover;
+}
 
-    .digital-school-transformation{
-        font-family: 'Quicksand', serif;
-        font-size: 45px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.22;
-        letter-spacing: 1.35px;
-        text-align: left;
-        color: #6e69f2;
-    }
+.product_hero {
+    width: 339.9px;
+    height: 376.1px;
+    object-fit: contain;
+}
 
-    .edufront-helps{
-        font-family: 'Raleway', serif;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.63;
-        letter-spacing: 0.48px;
-        text-align: left;
-        color: #212121;
+.logo {
+    margin-top: -4%;
+    margin-right: -38%;
+    width: 165px;
+    height: 39.8px;
+    object-fit: contain;
+    font-family: 'Quicksand', serif!important;
+}
 
-    }
+.edufront {
+    font-family: 'Quicksand', serif;
+    font-size: 26px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: -0.13px;
+    text-align: left;
+    color: #ffffff;
+}
 
+.menu-links {
+    width: 417px;
+    height: 23px;
+    font-family: 'Quicksand', serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: -0.09px;
+    text-align: right;
+    color: #ffffff;
+}
 
-    .ai-and-data{
-        font-family: 'Quicksand', serif;        
-        font-size: 45px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.22;
-        letter-spacing: 1.35px;
-        
-        color: #ffffff;
+a {
+    color: white;
+}
 
-    }
+.solutions {
+    margin-bottom: 2px;
+    ;
+    border-bottom: 1px solid white;
+}
+
+.main-head {
+    width: 543px;
+    height: 215px;
+    font-family: 'Quicksand', serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sub-head {
+    width: 533px;
+    height: 148px;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.digital-school-transformation {
+    font-family: 'Quicksand', serif;
+    font-size: 45px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 1.35px;
+    text-align: left;
+    color: #6e69f2;
+}
+
+.edufront-helps {
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #212121;
+}
+
+.ai-and-data {
+    font-family: 'Quicksand', serif;
+    font-size: 45px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 1.35px;
+    color: #ffffff;
+}
 
 .bg-path413 {
-background-image: url(../../assets/images/Path413.png);
-background-size: cover;
-padding-top: 240px!important;
-    }
+    background-image: url(../../assets/images/Path413.png);
+    background-size: cover;
+    padding-top: 240px!important;
+}
 
+.text-white {
+    color: white;
+}
 
-.text-white{
-color: white;
-    }
-
-
-    .data-preparation-block{
+.data-preparation-block {
     width: 403px;
     height: 195px;
     background-color: #564aec;
@@ -147,9 +137,12 @@ color: white;
     border-top-right-radius: 15px;
 }
 
-.data-preparation,.normalisation,.security-layer,.analysis,.prediction {
-
-    font-family: 'Quicksand', serif;        
+.data-preparation,
+.normalisation,
+.security-layer,
+.analysis,
+.prediction {
+    font-family: 'Quicksand', serif;
     font-size: 20px;
     font-weight: 600;
     font-stretch: normal;
@@ -160,9 +153,12 @@ color: white;
     color: #ffffff;
 }
 
-.data-preparation-text,.normalisation-text,.security-layer-text,.analysis-text,.prediction-text{
-
-    font-family: 'Raleway', serif;        
+.data-preparation-text,
+.normalisation-text,
+.security-layer-text,
+.analysis-text,
+.prediction-text {
+    font-family: 'Raleway', serif;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -173,34 +169,25 @@ color: white;
     color: #ffffff;
 }
 
-
-
-.normalisation-block{
+.normalisation-block {
     width: 403px;
     height: 195px;
     background-color: #5f54ed;
-    
 }
 
-
-.security-layer-block{
-
+.security-layer-block {
     width: 403px;
     height: 195px;
     background-color: #685def;
-
 }
 
-.analysis-block{
-
+.analysis-block {
     width: 403px;
-  height: 195px;
-  background-color: #756bf2;
+    height: 195px;
+    background-color: #756bf2;
 }
 
-
-.prediction-block{
-
+.prediction-block {
     width: 403px;
     height: 195px;
     background-color: #897ff8;
@@ -208,9 +195,8 @@ color: white;
     border-bottom-right-radius: 15px;
 }
 
-.human-design-leaders{
-
-    font-family: 'Quicksand', serif;        
+.human-design-leaders {
+    font-family: 'Quicksand', serif;
     font-size: 45px;
     font-weight: 500;
     font-stretch: normal;
@@ -219,11 +205,10 @@ color: white;
     letter-spacing: 1.35px;
     text-align: center;
     color: #6e69f2;
-
 }
 
-.edufront-believes{
-    font-family: 'Raleway', serif;        
+.edufront-believes {
+    font-family: 'Raleway', serif;
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -234,9 +219,10 @@ color: white;
     color: #212121;
 }
 
-.image-12{
+.image-12 {
     width: 830px;
     height: 496px;
     object-fit: contain;
-
 }
+
+.scroll-btn {}
