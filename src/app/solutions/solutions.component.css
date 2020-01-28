@@ -4,54 +4,18 @@
       background-image: url(../../assets/images/Path137.png);
       background-size: cover;
     }
-  
-    .product_hero {
-      width: 339.9px;
-      height: 376.1px;
-      object-fit: contain;
-    }
-  
-    .logo {
-      margin-top: -4%;
-      margin-right: -38%;
-      width: 165px;
-      height: 39.8px;
-      object-fit: contain;
-      font-family: 'Quicksand', serif!important;
-  
-    }
-  
-    .edufront {
-   
-      font-family: 'Quicksand', serif;
-      font-size: 26px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.27;
-      letter-spacing: -0.13px;
-      text-align: left;
-      color: #ffffff;
-    }
-  
-    .menu-links {
-      width: 417px;
-      height: 23px;
-      font-family: 'Quicksand', serif;
-      font-size: 18px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.28;
-      letter-spacing: -0.09px;
-      text-align: right;
-      color: #ffffff;
-    }
-  
-    a{
-        color: white;
-  
-    }
+        
+        .product_hero {
+          width: 339.9px;
+          height: 376.1px;
+          object-fit: contain;
+        }
+       
+              
+        a{
+            color: white;
+      
+        }
   
   .solutions{
       margin-bottom: 2px;;
@@ -87,6 +51,11 @@
       color: #ffffff;
     }
   
+
+.section-1{
+
+    padding-top: 100px;
+}
 
     .digital-school-transformation{
         font-family: 'Quicksand', serif;
