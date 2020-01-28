@@ -15,6 +15,7 @@ import { ProductsComponent } from './products/products.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { ProductComplexityComponent } from './shared/product-complexity/product-complexity.component';
 import { SectionBckImgComponent } from './shared/section-bck-img/section-bck-img.component';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { SectionBckImgComponent } from './shared/section-bck-img/section-bck-img
   ],
   imports: [
     BrowserModule,
+    ScrollToModule.forRoot(),
     RouterModule.forRoot([
       { path: '', pathMatch: 'full', component: HomeComponent},
       { path: 'Home', component: HomeComponent},
