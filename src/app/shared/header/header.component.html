@@ -15,11 +15,11 @@
       </div>
       <div  class="collapse navbar-collapse flex-grow-1 text-right" id="collapseExample">
          <ul  class="navbar-nav ml-auto flex-nowrap">
-            <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLink]="['/Home']" scrollto="intro-wrap">Home</a></li>
-            <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLink]="['/Vision']" scrollto="vision-wrap">Vision</a></li>
-            <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLink]="['/Products']" scrollto="products-wrap">Products</a></li>
-            <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLink]="['/Solutions']" scrollto="solutions-wrap">Solutions</a></li>
-            <li  class="nav-item"><a  class="nav-link m-2 menu-item"  scrollto="contacts-wrap">Contact Us</a></li>
+            <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLink]="['/Home']" [routerLinkActive]="['is-active']" scrollto="intro-wrap">Home</a></li>
+            <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLink]="['/Vision']" [routerLinkActive]="['is-active']" scrollto="vision-wrap">Vision</a></li>
+            <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLink]="['/Products']" [routerLinkActive]="['is-active']" scrollto="products-wrap">Products</a></li>
+            <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLink]="['/Solutions']" [routerLinkActive]="['is-active']" scrollto="solutions-wrap">Solutions</a></li>
+            <li  class="nav-item"><a  class="nav-link m-2 menu-item"  [routerLinkActive]="['is-active']" scrollto="contacts-wrap">Contact Us</a></li>
          </ul>
       </div>
    </div>

@@ -1,7 +1,70 @@
+
+        #home-header {
+            // position: fixed;
+            width: 100%;
+            background: 0 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 22px 0;
+            transition: all .5s ease-in-out;
+            -webkit-transition: .5s ease-in-out;
+            z-index: 9999;
+            font-size: 16px;
+            .container {
+                max-width: 1366px;
+                height: auto;
+                .mobile_menu {
+                    height: 60px;
+                    align-items: center;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        background-color: transparent;
+                        -webkit-text-decoration-skip: objects;
+                        .logo {
+                            width: 162px;
+                            height: 39.8px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+                .nav-link {
+                    font-family: Quicksand;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.28;
+                    letter-spacing: -0.09px;
+                    text-align: right;
+                    color: #ffffff;
+                }
+            }
+            .header-fixed {
+                position: fixed!important;
+                left: 0;
+                right: 0;
+                top: 0;
+                padding: 0!important;
+                box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+                -webkit-animation: .6s forwards slideDown;
+                animation: .6s forwards slideDown;
+                transition: all .5s ease-in-out!important;
+            }
+        }
+
 .landing-gradient-blue {
     // width: 1366px;
     height: auto;
     background-image: linear-gradient(7deg, #7eb6f5 27%, #568ce0 94%);
+}
+
+.home{
+
+    margin-bottom: 2px;
+    border-bottom: 1px solid white;
+    
 }
 
 .p-t-b-150 {
