@@ -1,20 +1,36 @@
-<nav  class="navbar navbar-expand-lg" id="home-header">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-navbar" id="main-nav">
+   <div class="container">
+     <a href="index.html" class="navbar-brand" [routerLink]="['/Home']"> <img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x,assets/images/logo@3x.png 3x" class="logo"></a>
+     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" (click)="toggleMenu()">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarCollapse">
+       <ul class="navbar-nav ml-auto">
+         <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active home" [routerLinkActive]="['is-active']"  [routerLink]="['/Home']" scrollto="intro-wrap">Home</a></li>
+         <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLinkActive]="['is-active']"  [routerLink]="['/Vision']" scrollto="vision-wrap">Vision</a></li>
+         <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLinkActive]="['is-active']" [routerLink]="['/Products']" scrollto="products-wrap">Products</a></li>
+         <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLinkActive]="['is-active']" [routerLink]="['/Solutions']" scrollto="solutions-wrap">Solutions</a></li>
+         <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLinkActive]="['is-active']"  [routerLink]="['/ContactUs']" scrollto="contacts-wrap">Contact Us</a></li>
+
+       </ul>
+     </div>
+   </div>
+ </nav>
+
+<!-- 
+<nav  class="navbar navbar-expand-sm" id="home-header">
    <div  class="container">
-      <div  class="d-flex flex-grow-1 mobile_menu">
-         <span  class="w-100 d-lg-none d-block"></span>
-         <a  class="navbar-brand-two mx-auto  d-inline-block" [routerLink]="['/Home']">
+      <div  class="">
+         <a  class="" [routerLink]="['/Home']">
           <img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x,assets/images/logo@3x.png 3x" class="logo">
          </a>
-         <div  class="w-100 text-right">
-            <button  aria-controls="collapseExample" class="navbar-toggler" type="button" aria-expanded="false">
-              <span  class="navbar-toggler-icon">
-                <i  class="eva eva-menu-outline text-30 text-white"></i>
-              </span>
-            </button>
-          </div>
+         <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>      
       </div>
-      <div  class="collapse navbar-collapse flex-grow-1 text-right" id="collapseExample">
-         <ul  class="navbar-nav ml-auto flex-nowrap">
+      <div  class="collapse navbar-collapse" id="navbarCollapse">
+         <ul  class="navbar-nav ml-auto">
             <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active home" id="home" [routerLinkActive]="['is-active']"  [routerLink]="['/Home']" scrollto="intro-wrap">Home</a></li>
             <li  class="nav-item"><a  class="nav-link m-2 menu-item nav-active"  [routerLinkActive]="['is-active']"  [routerLink]="['/Vision']" scrollto="vision-wrap">Vision</a></li>
             <li  class="nav-item"><a  class="nav-link m-2 menu-item" [routerLinkActive]="['is-active']" [routerLink]="['/Products']" scrollto="products-wrap">Products</a></li>
@@ -23,5 +39,5 @@
          </ul>
       </div>
    </div>
-</nav>
+</nav> -->
 

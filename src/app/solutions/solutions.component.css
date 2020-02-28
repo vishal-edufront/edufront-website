@@ -1,3 +1,67 @@
+
+.width-inherit {
+    width: inherit!important;
+    width: 100%;
+    }
+  
+  
+  
+  @media screen and (max-width: 375px) {
+    .learning-checkpoints,.classroom-checkpoints,.assessment-checkpoints,.academic-checkpoints,.performance-checkpoints {
+      font-size: x-small;
+    }
+   
+  
+
+  }
+
+
+
+  @media screen and (max-width: 414px) {
+  
+
+    .digital-school-transformation[_ngcontent-c1] {
+        font-size: 30px;
+    }
+
+
+    .product_hero[_ngcontent-c1] {
+        width: 293.9px;
+    }
+
+    .section-1[_ngcontent-c1] {
+        padding-top: 30px!important;
+    }
+
+    .main-head[_ngcontent-c1][_ngcontent-c1] {
+        font-size: 30px;
+    }
+
+    .sub-head[_ngcontent-c1] {
+        font-family: 'Raleway', serif;
+        font-size: 15px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .main-head[_ngcontent-c1] {
+        font-size: 48px;
+       
+    }
+
+
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .main-head {
+      font-size: 28px;
+    }
+  }
+
+
 .header {
     height: 1000px;
     object-fit: contain;
@@ -57,8 +121,7 @@ a {
 }
 
 .main-head {
-    width: 543px;
-    height: 215px;
+ 
     font-family: 'Quicksand', serif;
     font-size: 60px;
     font-weight: 600;
@@ -66,13 +129,11 @@ a {
     font-style: normal;
     line-height: 1.17;
     letter-spacing: normal;
-    text-align: left;
     color: #ffffff;
 }
 
 .sub-head {
-    width: 533px;
-    height: 148px;
+  
     font-family: 'Raleway', serif;
     font-size: 20px;
     font-weight: normal;
@@ -80,7 +141,6 @@ a {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.7px;
-    text-align: left;
     color: #ffffff;
 }
 
@@ -88,23 +148,20 @@ a {
     font-family: 'Quicksand', serif;
     font-size: 45px;
     font-weight: 500;
-    font-stretch: normal;
     font-style: normal;
     line-height: 1.22;
     letter-spacing: 1.35px;
-    text-align: left;
     color: #6e69f2;
 }
 
 .edufront-helps {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway';
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.63;
     letter-spacing: 0.48px;
-    text-align: left;
     color: #212121;
 }
 
@@ -130,8 +187,7 @@ a {
 }
 
 .data-preparation-block {
-    width: 403px;
-    height: 195px;
+   
     background-color: #564aec;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -170,29 +226,27 @@ a {
 }
 
 .normalisation-block {
-    width: 403px;
-    height: 195px;
+  
     background-color: #5f54ed;
 }
 
 .security-layer-block {
-    width: 403px;
-    height: 195px;
+  
     background-color: #685def;
 }
 
 .analysis-block {
-    width: 403px;
-    height: 195px;
+  
     background-color: #756bf2;
 }
 
 .prediction-block {
-    width: 403px;
-    height: 195px;
+   
+   
     background-color: #897ff8;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin-bottom: 100px;
 }
 
 .human-design-leaders {

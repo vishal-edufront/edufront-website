@@ -1,21 +1,35 @@
 <div class="footer">
 
   <div class="container">
-    <div class="footer-bx">
-      <div class="footer-box-img">
-        <a [routerLink]="['/Home']">  <img  alt="" class="img-responsive blur-img" src="./assets/images/footer_logo.png"> </a>
-      </div>
-     <div class="footer-link">
-      <p>Copyright © Edufront. All rights reserved.</p>
-     </div>
+<div class="row pt-5">
+    <div class="col-md-6 col-sm-12 mb-3">
+        <a [routerLink]="['/Home']">  <img  alt="" class="footer-logo mb-3" src="./assets/images/footer_logo.png"> </a>
+        <br>
+      <span class="copyrights">  Copyright © Edufront. All rights reserved.</span>
+    
     </div>
-    <div class="footer-bx-link">
-      <ul>
-        <li class="footer-link" [routerLink]="['/Vision']"><a>Vision</a></li>
-        <li class="footer-link" [routerLink]="['/Products']"><a>Products</a></li>
-        <li class="footer-link" [routerLink]="['/Solutions']"><a>Solutions</a></li>
-        <li class="footer-link" ><p>Contact</p></li>
-      </ul>
+
+    <div class="col-md-6 col-sm-12">
+
+      <div class="d-flex flex-row bd-highlight footer-menu-links mb-3">
+        <div class="p-2 bd-highlight" [routerLink]="['/Vision']"><a>Vision</a></div>
+        <div class="p-2 bd-highlight" [routerLink]="['/Products']"><a>Products</a></div>
+        <div class="p-2 bd-highlight" [routerLink]="['/Solutions']"><a>Solutions</a></div>
+        <div class="p-2 bd-highlight" [routerLink]="['/ContactUs']"><a>Contact</a></div>
+
+      </div>
+
+    </div>
+
+
     </div>
   </div>
 </div>
+
+
+<!-- <ul>
+  <li class="footer-link" [routerLink]="['/Vision']"><a>Vision</a></li>
+  <li class="footer-link" [routerLink]="['/Products']"><a>Products</a></li>
+  <li class="footer-link" [routerLink]="['/Solutions']"><a>Solutions</a></li>
+  <li class="footer-link" [routerLink]="['/ContactUs']"><a>Contact</a></li>
+</ul> -->

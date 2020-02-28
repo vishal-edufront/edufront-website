@@ -1,4 +1,169 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  font-family: 'Quicksand', 'Raleway', sans-serif;
+
+/* -------   Bootstrap import (Bootstrap 4)  ------- */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* -------   Font import (QuickSand)  ------- */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
+
+/* -------   Required SCSS (customizable)  ------- */
+
+:root {
+    --color__white: #ffffff;
+    --color__nero_black: #212121;
+
+
+    --color__crownflower_blue: #568ce0;
+    
+    --color__harvest_gold: #F2B269;
+    --color__sunshade: #EFA251;
+    
+    --color__bright_turquoise: #00dce8;
+    --color__dark_turquoise: #00c4d2;
+
+    --color__light_slate_blue: #8787f6;
+    --color__medium_slate_blue: #6e69f2;
+    
+
+
+    --fontRale14_30: 14px/30px Raleway;
+    --fontRale16_26: 16px/26px Raleway;
+    --fontRale18_36: 18px/36px Raleway;
+    --fontRale20_30: 20px/30px Raleway;
+
+    --fontQuick18_23: 18px/23px Quicksand;
+    --fontQuick20_30: 20px/30px Quicksand;
+    --fontQuick20_26: 20px/26px Quicksand;
+    --fontQuick24_27: 24px/27px Quicksand;
+    --fontQuick28_55: 28px/55px Quicksand;
+    --fontQuick45_55: 45px/55px Quicksand;
+    --fontQuick60_70: 60px/70px Quicksand;
+    --fontQuick80_90: 80px/90px Quicksand;
+
+    --font__family: 'Roboto', 'Quicksand', 'Raleway', sans-serif;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: var(--font__family);
+    font-size: var(--font__size);
+    font-weight: 400;
+    font-family: --font__family;
+}
+
+// Text Styling 
+h1 {
+    font: var(--fontQuick34_54) !important;
+    color: var(--color__black) !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.02px !important;
+}
+
+h2 {
+    font: var(--fontRale16_24) !important;
+    color: var(--color__black) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.48px !important;
+}
+
+h3 {
+    font: var(--fontRale16_24) !important;
+    color: var(--color__grey) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.48px !important;
+}
+
+h4 {
+    font: var(--fontQuick26_40) !important;
+    color: var(--color__black) !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.02px !important;
+}
+
+h5{
+    font: var(--fontRale12) !important;
+    color: var(--color__black) !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.36px !important;
+}
+
+
+
+.h7{
+    font: var(--fontRale14) !important;
+    color: var(--color__light__grey) !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.42px !important;
+}
+
+.h8{
+    font: var(fontQuick16_24) !important;
+    color: var(--color__black) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.48px !important;
+}
+
+.h9{
+    font: var(--fontRale16_24) !important;
+    color: var(--color__black) !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.48px !important;
+}
+
+
+// p {
+//     font: var(--fontRale16_24) !important;
+//     color: var(--color__black) !important;
+//     font-weight: 500 !important;
+//     letter-spacing: 0.48px !important;
+
+
+// }
+
+
+
+.container {
+  max-width: 1366px;
+  height: auto;
+
+.navbar-toggler{
+color: white;
+}
+
+  .nav-link {
+      font-family: 'Quicksand';
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.28;
+      letter-spacing: -0.09px;
+      color: #ffffff!important;
+  }
+}
+.header-fixed {
+  position: fixed!important;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0!important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  -webkit-animation: .6s forwards slideDown;
+  animation: .6s forwards slideDown;
+  transition: all .5s ease-in-out!important;
+}
+
+
+.is-active{
+margin-bottom: 2px;;
+border-bottom: 1px solid white;
+}
+

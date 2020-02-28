@@ -1,3 +1,100 @@
+
+.width-inherit {
+    width: inherit;
+    }
+  
+    @media screen and (max-width: 414px) {
+  
+
+      .digital-school-transformation[_ngcontent-c1] {
+          font-size: 30px;
+      }
+  
+  
+      .contact_hero[_ngcontent-c1] {
+          width: 293.9px;
+      }
+  
+      .section-1[_ngcontent-c1] {
+          padding-top: 30px!important;
+      }
+  
+      .main-head[_ngcontent-c1][_ngcontent-c1] {
+          font-size: 30px;
+      }
+  
+      .sub-head[_ngcontent-c1] {
+          font-family: 'Raleway', serif;
+          font-size: 15px;
+      }
+  
+    }
+  
+  
+  @media screen and (max-width: 375px) {
+    .learning-checkpoints,.classroom-checkpoints,.assessment-checkpoints,.academic-checkpoints,.performance-checkpoints {
+      font-size: x-small;
+    }
+   
+
+    .main-head[_ngcontent-c1] {
+        font-family: 'Quicksand', serif;
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+
+    .sub-head[_ngcontent-c1] {
+        font-family: 'Raleway', serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.7px;
+        color: #ffffff;
+    }
+
+
+    .section-1[_ngcontent-c1] {
+        padding-top: 30px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+  .header-bg[_ngcontent-c1] {
+ 
+    height: 93%;
+}
+  }
+
+  @media screen and (max-width: 375px) {
+  .contact_hero[_ngcontent-c1][_ngcontent-c1] {
+    width: 199.9px;
+}
+  }
+
+  @media only screen and (min-width: 400px) {
+    .main-head {
+      font-size: 28px;
+    }
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .header-bg[_ngcontent-c1] {
+ 
+    height: 67%;
+}
+}
+
 .write-to-us{
 
     font-family: 'Quicksand', serif;
@@ -7,7 +104,6 @@
     font-style: normal;
     line-height: 1.22;
     letter-spacing: 1.35px;
-    text-align: left;
     color: #212121;
 }
 
@@ -29,8 +125,7 @@
   }
 
 .main-head{
-    width: 543px;
-    height: 215px;
+
     font-family: 'Quicksand', serif;
     font-size: 60px;
     font-weight: 600;
@@ -38,13 +133,11 @@
     font-style: normal;
     line-height: 1.17;
     letter-spacing: normal;
-    text-align: left;
     color: #ffffff;
 }
 
 .sub-head {
-    width: 533px;
-    height: 148px;
+   
     font-family: 'Raleway', serif;
     font-size: 20px;
     font-weight: normal;
@@ -52,7 +145,6 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.7px;
-    text-align: left;
     color: #ffffff;
   }
 
@@ -137,20 +229,20 @@ textarea{
     color: #616161;
 }
 
-.btn-grey{
-    width: 260px;
-    height: 61px;
-    border-radius: 12px;
-    background-color: #616161;
+.btn-green {
+    width: 224px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #4bd89b;
     font-family: 'Quicksand', serif;    
-    font-size: 24px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.29;
-    letter-spacing: 0.72px;
-    text-align: left;
-    color: #ffffff;
+    font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.42px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .bg-grey{
@@ -162,7 +254,16 @@ textarea{
 
 .header-bg{
 
-    background-image: url(../../assets/images/contact_bg.svg);
+    background-image: url(../../assets/images/green_background.png);
     background-size: cover;
-    height: 985px;
+    height: 133%;
+}
+
+
+.row {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
 }
